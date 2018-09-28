@@ -27,6 +27,7 @@
   def create
     @recipe = Recipe.new(
                          title: params[:title],
+                         user_id: 1, #current_user.id
                          chef: params[:chef],
                          ingredients: params[:ingredients],
                          directions: params[:directions],

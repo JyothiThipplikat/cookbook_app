@@ -14,3 +14,5 @@ json.formatted do
   json.directions recipe.directions_list
 
   end
+
+ 
